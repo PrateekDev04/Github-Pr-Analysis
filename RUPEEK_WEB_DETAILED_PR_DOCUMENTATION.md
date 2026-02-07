@@ -110,7 +110,7 @@
 #### PR #2203: Log 5830 patch ⭐ HIGH DISCUSSION
 - **Status:** ✅ MERGED
 - **Merged Date:** 2025-12-24T12:34:52Z (44 days ago)
-- **Comments:** 18 ⚠️
+- **Comments:** 18 
 - **Created:** 50 days ago
 - **Description:** Complex feature implementation
 - **Impact:** High - Multiple subsystems affected
@@ -212,7 +212,7 @@
 #### PR #2126: Gross Weight deviation in KYC apis ⭐ HIGHEST DISCUSSION
 - **Status:** ✅ MERGED
 - **Merged Date:** 2025-08-20T14:12:55Z
-- **Comments:** 42 ⚠️⚠️⚠️
+- **Comments:** 42 
 - **Created:** 31 July 2025
 - **Time to Merge:** 20 days
 - **Description:** Complex gross weight deviation handling in KYC APIs
@@ -292,7 +292,7 @@
 #### PR #2059: New log 5385
 - **Status:** ✅ MERGED
 - **Merged Date:** 2025-04-29T11:30:21Z
-- **Comments:** 24 ⚠️⚠️⚠️
+- **Comments:** 24 
 - **Description:** Added new API endpoint for KYC verification v12
 - **Impact:** High - New API version
 - **Technical Details:**
@@ -304,7 +304,7 @@
 #### PR #2020: pre check changes ⭐ HIGHEST DISCUSSION (Non-Gross Weight)
 - **Status:** ✅ MERGED
 - **Merged Date:** 2025-03-18T13:43:59Z
-- **Comments:** 36 ⚠️⚠️⚠️⚠️
+- **Comments:** 36 
 - **Created:** 11 March 2025
 - **Time to Merge:** 7 days
 - **Description:** PreCheck verification workflow changes
@@ -345,7 +345,7 @@
 #### PR #1961: copy jewels after kyc ⭐ HIGH DISCUSSION
 - **Status:** ✅ MERGED
 - **Merged Date:** 2025-01-23T12:06:45Z
-- **Comments:** 48 ⚠️⚠️⚠️⚠️
+- **Comments:** 48 
 - **Created:** 13 January 2025
 - **Time to Merge:** 10 days
 - **Description:** Copy jewels after KYC completion
@@ -417,7 +417,7 @@
 ### PR #2144: feat(swagger): add swagger-ui integration for API documentation ⏳ HIGH DISCUSSION
 - **Status:** ⏳ OPEN (Active)
 - **Created:** 130 days ago (04 Sept 2025)
-- **Comments:** 33 ⚠️⚠️⚠️⚠️
+- **Comments:** 33 
 - **Description:** Swagger UI Integration for API Documentation
 - **Impact:** High - Developer experience enhancement
 - **Technical Details:**
@@ -485,8 +485,6 @@
 
 ---
 
-## ❌ Closed But Not Merged
-
 ### PR #1943: Bluepipeline
 - **Status:** ❌ CLOSED (NOT MERGED)
 - **Closed:** 15 April 2025
@@ -498,125 +496,7 @@
 
 ---
 
-## 📊 Key Areas & Metrics
 
-### Top Discussion Areas (By Comments)
-
-| Rank | PR # | Topic | Comments | Status |
-|------|------|-------|----------|--------|
-| 1️⃣ | #1961 | Copy jewels after KYC | 48 | ✅ MERGED |
-| 2️⃣ | #2020 | PreCheck workflow changes | 36 | ✅ MERGED |
-| 3️⃣ | #2059 | New log 5385 (v12 KYC API) | 24 | ✅ MERGED |
-| 4️⃣ | #2126 | Gross weight deviation | 42 | ✅ MERGED |
-| 5️⃣ | #2144 | Swagger UI integration | 33 | ⏳ OPEN |
-| 6️⃣ | #2203 | Log 5830 patch | 18 | ✅ MERGED |
-| 7️⃣ | #1984 | LOG-2710 | 18 | ⏳ OPEN |
-| 8️⃣ | #2062 | Reset flag FCM | 18 | ✅ MERGED |
-
-### Topics & Categories
-
-#### 🔐 KYC Verification (18+ PRs)
-- Multiple KYC API versions (v12, v13)
-- Electronic KYC improvements
-- Sentinel API integration
-- Repeat KYC enhancements
-- Face match/liveness verification
-
-#### 💎 Appraisal & Jewel Management (15+ PRs)
-- Jewel validation logic
-- Gross weight calculations
-- Deviation detection
-- Weight tolerance validation
-- Stone adjustment percentage
-
-#### 💰 Money Routing (4 PRs)
-- Money routing tags
-- Payment processing flags
-- Transaction tracking
-
-#### 🔄 Workflow Management (12+ PRs)
-- PreCheck verification
-- Renewal flow
-- Takeover transactions
-- Repeat KYC workflow
-- Copy jewels after KYC
-
-#### 🔧 Infrastructure & Maintenance (10+ PRs)
-- MongoDB 6 upgrade
-- Docker optimization
-- Logging enhancements
-- API endpoint fixes
-- FCM parameter updates
-
-#### 📚 Documentation & APIs (3+ PRs)
-- Swagger UI integration
-- API versioning
-- New endpoint creation
-
----
-
-## 🔍 Technical Summary
-
-### Primary Technologies
-- **Backend:** Node.js (Sails.js/Express-based)
-- **Frontend:** Vue.js
-- **Database:** MongoDB
-- **Integration:** Sentinel API, FCM, External KYC services
-
-### Key Files Modified
-- `AgentWFController.js` - Most frequently updated (KYC, Appraisal logic)
-- `NotificationHelpers.js` - Notification workflow
-- `route.js` - API endpoint configuration
-- `app/config/` - Configuration files
-
-### Common PR Patterns
-
-**Bugfix PRs:** Usually 0-3 comments, 1-2 days to merge
-**Feature PRs:** 3-10 comments, 2-7 days to merge
-**Complex PRs:** 15+ comments, 5-20 days to merge
-
----
-
-## 🎯 Recommendations
-
-### Immediate Actions
-
-1. **PR #2199 (57 days old)** - Log 5803 Face Match Integration
-   - Status: In QA
-   - Action: Complete QA testing and merge or request changes
-   - Complexity: High
-
-2. **PR #2144 (130 days old)** - Swagger UI Integration
-   - Status: 33 comments indicating blocked decision
-   - Action: Schedule design review meeting to unblock
-   - Complexity: Medium
-
-3. **PR #1870 (499 days old)** - Dynamic URL
-   - Status: EXTREMELY STALE
-   - Action: URGENT - Close or rebase and restart
-
-4. **PR #1979, #1986 (368+ days old)** - Mongo6 Upgrade
-   - Status: Stale infrastructure work
-   - Action: Either complete upgrade or document decision to skip
-
-### Strategic Improvements
-
-1. **Code Review Process**
-   - Establish SLA for PR reviews (24-48 hours)
-   - Assign reviewers explicitly
-   - Clear resolution path for blocked PRs
-
-2. **PR Hygiene**
-   - Close stale PRs after 60 days of inactivity
-   - Require PR titles matching conventional commits
-   - Link all PRs to Jira tickets
-
-3. **Documentation**
-   - Maintain PR templates
-   - Document critical technical decisions
-   - Archive knowledge from high-comment PRs
-
----
 
 ## 📞 Quick Links
 
@@ -626,7 +506,3 @@
 - **All PRs:** https://github.com/Rupeek/rupeek-web/pulls?q=author:PrateekDev04
 
 ---
-
-**Generated:** 2026-02-07  
-**Total PRs Documented:** 50+  
-**Documentation Status:** Complete with actionable insights
